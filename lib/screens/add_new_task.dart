@@ -58,16 +58,16 @@ class _AddNewTaskScreenState extends State<AddNewTaskScreen> {
                         color: Colors.white,
                       ),
                     ),
-                    // const Expanded(
-                    //   child: Text(
-                    //     "Add new task",
-                    //     style: TextStyle(
-                    //         color: Colors.white,
-                    //         fontWeight: FontWeight.bold,
-                    //         fontSize: 21),
-                    //     textAlign: TextAlign.center,
-                    //   ),
-                    // )
+                    const Expanded(
+                      child: Text(
+                        "Add new task",
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 21),
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
                   ],
                 ),
               ),

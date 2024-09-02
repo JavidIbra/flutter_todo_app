@@ -18,6 +18,8 @@ class _HomeScreenState extends State<HomeScreen> {
   //List<String> todoList = ["Study Lesson", "Run 5k", "Go To Party"];
   //List<String> completedTodoList = ["Game meetup", "trash move out"];
 
+  // final now = DateTime.now();
+
   List<Task> todoList = [
     Task(
       type: TaskType.note,
@@ -81,30 +83,30 @@ class _HomeScreenState extends State<HomeScreen> {
                     image: AssetImage("lib/assets/images/header.png"),
                     fit: BoxFit.cover,
                   )),
-              // child: const Column(
-              //   children: [
-              //     Padding(
-              //       padding: EdgeInsets.only(top: 20),
-              //       child: Text(
-              //         "23.03.2024",
-              //         style: TextStyle(
-              //             color: Colors.white,
-              //             fontSize: 20,
-              //             fontWeight: FontWeight.bold),
-              //       ),
-              //     ),
-              //     Padding(
-              //       padding: EdgeInsets.only(top: 40),
-              //       child: Text(
-              //         "Todo App",
-              //         style: TextStyle(
-              //             color: Colors.white,
-              //             fontSize: 30,
-              //             fontWeight: FontWeight.bold),
-              //       ),
-              //     ),
-              //   ],
-              // ),
+              child: const Column(
+                children: [
+                  Padding(
+                    padding: EdgeInsets.only(top: 20),
+                    child: Text(
+                      "Sentyabr 02,2024",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold),
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(top: 40),
+                    child: Text(
+                      "Todo App",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold),
+                    ),
+                  ),
+                ],
+              ),
             ),
             //Top column
             Expanded(
